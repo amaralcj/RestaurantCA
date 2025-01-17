@@ -52,11 +52,16 @@
 #Description {
     text-align: center;
     font-family: Taco-Modern;
-    font-weight: lighter;
     font-size: 40px;
     background-color: #E9B000;
     border-radius: 5px;
     padding: 5px;
+}
+#Description h2,span,p {
+    font-weight: 100;
+}
+#Description span {
+    display: block;
 }
 #info{
     padding: 10px;
