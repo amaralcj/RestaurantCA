@@ -1,3 +1,10 @@
+@font-face {
+    font-family: Taco-Modern;
+    src: url(fonts/TacoModern-K7Xo.ttf);
+}
+#top,#top-text,#top-logo,.food {
+    border-radius: 10px;
+}
 #top {
     margin: auto;
     border: 3px solid #E24E42;
@@ -5,18 +12,65 @@
     padding: 30px;
 }
 #top-text {
-    display: block;
+    text-align: center;
+    font-family: Taco-Modern;
+    font-weight: 100;
+    font-size: 50px;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
     padding: 5px;
-    background-color: #EB6E80; 
+    background-color: #aa0000; 
+}
+#MUSTARD {
+    color: #E9B000;
+}
+#PAPAYA {
+    color: #E24E42;
+
+}
+#AQUA {
+    color: #008F95;
 }
 #top-logo {
     display: block;
     margin-left: auto;
     margin-right: auto; 
 }
-body {
+.food {
+    width: 100%;
+}
+.row {
+    background-color: #008F95;
+    display: flex;
+    border-radius: 5px;
+}
+.column {
+    flex: 33.33%;
+    padding: 5px;
+    align-content: center;
+}
+#Description {
+    text-align: center;
+    font-family: Taco-Modern;
+    font-weight: lighter;
+    font-size: 40px;
     background-color: #E9B000;
+    border-radius: 5px;
+    padding: 5px;
+}
+#info{
+    padding: 10px;
+    padding-top: 20px;
+    background-color: #E24E42;
+    border-radius: 5px;
+    font-family: Taco-Modern;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: center;
+}
+#info span {
+    padding: 5px;
+}
+body {
+    background-color: #EB6E80;
 }
