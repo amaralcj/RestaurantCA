@@ -1,0 +1,22 @@
+#top {
+    margin: auto;
+    border: 3px solid #E24E42;
+    background-color: #E24E42;
+    padding: 30px;
+}
+#top-text {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 5px;
+    background-color: #EB6E80; 
+}
+#top-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+body {
+    background-color: #E9B000;
+}
